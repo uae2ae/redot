@@ -2,12 +2,11 @@
   <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand navbar" >Re.</a>
-
-      <div class="dropdown ms-auto me-5">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="dropdown ms-auto me-5" appDropdown>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton">
           Home
         </button>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+        <ul class="dropdown-menu dropdown-menu-end">
           <li><a class="dropdown-item" href="#">r/example1</a></li>
           <li><a class="dropdown-item" href="#">r/example2</a></li>
           <li><hr class="dropdown-divider"></li>
@@ -21,7 +20,7 @@
       </form>
 
       <div class="ms-auto">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb0">
           <button class="btn btn-outline-danger" type="submit">Login</button>
         </ul>
       </div>
