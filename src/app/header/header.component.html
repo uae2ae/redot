@@ -1,4 +1,4 @@
-<div class="container fixed-top" style="background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('your-image-url-here'); backdrop-filter: blur(10px);">
+<div class="container fixed-top rounded-bottom-2" style="background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(''); backdrop-filter: blur(10px);">
   <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand navbar" >Re.</a>
@@ -6,7 +6,7 @@
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton">
           Home
         </button>
-        <ul class="dropdown-menu dropdown-menu-end">
+        <ul class="dropdown-menu dropdown-menu-end" id="dropdownMenu">
           <li><a class="dropdown-item" href="#">r/example1</a></li>
           <li><a class="dropdown-item" href="#">r/example2</a></li>
           <li><hr class="dropdown-divider"></li>
@@ -21,7 +21,7 @@
 
       <div class="ms-auto">
         <ul class="navbar-nav ms-auto mb-2 mb0">
-          <button class="btn btn-outline-danger" type="submit">Login</button>
+          <button class="btn btn-outline-danger" type="submit" routerLink="/auth">Login</button>
         </ul>
       </div>
     </div>

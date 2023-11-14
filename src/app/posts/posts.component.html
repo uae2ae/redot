@@ -1,14 +1,15 @@
 <div class="col-md-8 mx-auto mb-3 card  p-sm-1  d-flex">
-  <div class="d-flex justify-content-end" appDropdown>
-    <button class="btn btn-dark dropdown-toggle"  type="button">
-      Sort by
+  <div class="d-flex justify-content-end align-items-center" appDropdown>
+    <span class="p-2">Sort by</span>
+    <button class="btn btn-dark dropdown-toggle "  type="button">
+      <mat-icon>whatshot</mat-icon>
     </button>
-    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="sortDropdown">
-      <button class="dropdown-item"><mat-icon>calender</mat-icon> Date</button>
-      <button class="dropdown-item"><mat-icon>arrow_upward</mat-icon> Votes</button>
-      <button class="dropdown-item">Hot</button>
-      <button class="dropdown-item">Hot</button>
-    </div>
+    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="sortDropdown">
+      <li class="dropdown-item"><mat-icon>whatshot</mat-icon> Hot</li>
+      <li class="dropdown-item"><mat-icon>trending_up</mat-icon> Hot</li>
+      <li class="dropdown-item"><mat-icon>calender</mat-icon> Date</li>
+      <li class="dropdown-item"><mat-icon>arrow_upward</mat-icon> Votes</li>
+    </ul>
   </div>
 </div>
 <app-post-list></app-post-list>
